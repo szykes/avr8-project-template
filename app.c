@@ -1,8 +1,8 @@
-#include "logic.h"
+#include "app.h"
 
 #include "avr.h"
 
-void make(void) {
+void app_main(void) {
   gpio_high();
   gpio_low();
 }
