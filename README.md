@@ -17,5 +17,5 @@ cmake -DTEST=True -S . -B cmake-test
 ```
 
 ```
-cmake --build cmake-test --target logic-test
+cmake --build cmake-test --target app-test
 ```
