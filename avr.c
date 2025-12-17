@@ -12,11 +12,11 @@ void hw_init(void) {
   wdt_enable(WDTO_250MS);
 }
 
-void mcu_sei(void) {
+void mcu_enable_global_interrupt(void) {
   sei();
 }
 
-void mcu_cli(void) {
+void mcu_disable_global_interrupt(void) {
   cli();
 }
 

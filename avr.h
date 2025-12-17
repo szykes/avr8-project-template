@@ -3,8 +3,8 @@
 
 void hw_init(void);
 
-void mcu_cli(void);
-void mcu_sei(void);
+void mcu_enable_global_interrupt(void);
+void mcu_disable_global_interrupt(void);
 
 void gpio_high(void);
 void gpio_low(void);

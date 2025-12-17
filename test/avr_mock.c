@@ -2,11 +2,11 @@
 
 #include "mock.h"
 
-void mcu_sei(void) {
+void mcu_enable_global_interrupt(void) {
   MOCK_RECORD();
 }
 
-void mcu_cli(void) {
+void mcu_disable_global_interrupt(void) {
   MOCK_RECORD();
 }
 
